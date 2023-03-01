@@ -1,0 +1,34 @@
+DOMAIN-KEYWORD,github
+DOMAIN-KEYWORD,google
+DOMAIN-KEYWORD,microsoft
+DOMAIN-KEYWORD,telegram
+DOMAIN-SUFFIX,i.ytimg.com
+DOMAIN-SUFFIX,www.instagram.com
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,t.me
+DOMAIN-SUFFIX,lvv2.com
+DOMAIN-SUFFIX,youtube.com
+
+# New Bing
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,edgeservices.bing.com
+
+# TikTok
+DOMAIN,p16-tiktokcdn-com.akamaized.net
+DOMAIN-SUFFIX,byteoversea.com
+DOMAIN-SUFFIX,ibytedtos.com
+DOMAIN-SUFFIX,ibyteimg.com
+DOMAIN-SUFFIX,ipstatp.com
+DOMAIN-SUFFIX,muscdn.com
+DOMAIN-SUFFIX,musical.ly
+DOMAIN-SUFFIX,sgpstatp.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,tik-tokapi.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN-SUFFIX,tiktokcdn.com
+DOMAIN-SUFFIX,tiktokv.com
+DOMAIN-KEYWORD,-tiktokcdn-com
+USER-AGENT,TikTok*
+
+IP-CIDR,13.115.42.98/24
+IP-CIDR,149.154.167.91/24
