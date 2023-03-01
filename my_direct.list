@@ -1,0 +1,15 @@
+# DOMAIN-SUFFIX,.cn
+DOMAIN-SUFFIX,msn.com
+DOMAIN-SUFFIX,bitwarden.com
+DOMAIN-SUFFIX,bitwarden.net
+DOMAIN-SUFFIX,tsinghua.edu.cn
+DOMAIN-SUFFIX,www.autodl.com
+DOMAIN-SUFFIX,hdu.edu.cn
+DOMAIN-SUFFIX,snapdrop.net
+# 桌面端onedrive不走代理
+DOMAIN-SUFFIX,storage.live.com
+
+IP-CIDR,2.2.2.2/24
+GEOIP,private
+# GEOIP,cn
+
