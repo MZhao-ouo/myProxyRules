@@ -1,0 +1,8 @@
+DOMAIN-SUFFIX,lcs.*.adobe.io
+DOMAIN-SUFFIX,crs.cr.adobe.com
+DOMAIN-SUFFIX,cchome.adobe.io
+DOMAIN-SUFFIX,butler.adobe.com
+#禁止网页收集鼠标信息
+DOMAIN-SUFFIX,mousegesturesapi.com
+
+GEOIP,adobe-activation
