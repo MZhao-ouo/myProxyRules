@@ -12,6 +12,7 @@ DOMAIN,ssl.gstatic.com
 
 # New Bing
 DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bing.net
 DOMAIN-SUFFIX,edgeservices.bing.com
 
 # TikTok
