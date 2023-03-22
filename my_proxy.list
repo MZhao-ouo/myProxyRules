@@ -32,5 +32,8 @@ DOMAIN-SUFFIX,tiktokv.com
 DOMAIN-KEYWORD,-tiktokcdn-com
 USER-AGENT,TikTok*
 
+# Some Adobe
+DOMAIN-SUFFIX,firefly.adobe.com
+
 IP-CIDR,13.115.42.98/24
 IP-CIDR,149.154.167.91/24
