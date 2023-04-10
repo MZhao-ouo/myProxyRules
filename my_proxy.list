@@ -35,5 +35,17 @@ USER-AGENT,TikTok*
 # Some Adobe
 DOMAIN-SUFFIX,firefly.adobe.com
 
+# Discord
+DOMAIN-SUFFIX,discord.co
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discord.media
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+DOMAIN-SUFFIX,discord.com
+DOMAIN-SUFFIX,discord.gg
+DOMAIN-SUFFIX,discordapp.com
+DOMAIN-SUFFIX,discordapp.net
+
 IP-CIDR,13.115.42.98/24
 IP-CIDR,149.154.167.91/24
