@@ -34,6 +34,7 @@ USER-AGENT,TikTok*
 
 # Some Adobe
 DOMAIN-SUFFIX,firefly.adobe.com
+DOMAIN-SUFFIX,podcast.adobe.com
 
 # Discord
 DOMAIN-SUFFIX,discord.co
