@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,lvv2.com
 DOMAIN-SUFFIX,youtube.com
 DOMAIN,ssl.gstatic.com
+DOMAIN-SUFFIX,statcounter.com
 
 # New Bing
 DOMAIN-SUFFIX,bing.com
@@ -47,6 +48,7 @@ DOMAIN-SUFFIX,discord.com
 DOMAIN-SUFFIX,discord.gg
 DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
+
 
 IP-CIDR,13.115.42.98/24
 IP-CIDR,149.154.167.91/24
