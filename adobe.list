@@ -1,3 +1,13 @@
+DOMAIN-SUFFIX,lcs.*.adobe.io
+DOMAIN-SUFFIX,crs.cr.adobe.com
+DOMAIN-SUFFIX,cchome.adobe.io
+DOMAIN-SUFFIX,butler.adobe.com
+DOMAIN,client.messaging.adobe.com
+DOMAIN,adobeid-na1.services.adobe.com
+DOMAIN-SUFFIX,adobe.com
+DOMAIN-SUFFIX,adobe.io
+DOMAIN-KEYWORD,adobe
+
 DOMAIN-KEYWORD,adobe
 GEOIP,adobe-activation
 GEOIP,adobe-activation
