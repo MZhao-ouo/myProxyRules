@@ -11,6 +11,10 @@ DOMAIN-SUFFIX,youtube.com
 DOMAIN,ssl.gstatic.com
 DOMAIN-SUFFIX,statcounter.com
 
+# exe
+PROCESS-NAME,Apple TV
+PROCESS-NAME,AMPLibraryAgent
+
 # New Bing
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bing.net
