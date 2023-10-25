@@ -12,6 +12,7 @@ DOMAIN,ssl.gstatic.com
 DOMAIN-SUFFIX,statcounter.com
 DOMAIN-SUFFIX,gvt1.com
 DOMAIN-SUFFIX,googleapis.cn
+DOMAIN-SUFFIX,tv.apple.com
 
 # exe
 PROCESS-NAME,Apple TV
