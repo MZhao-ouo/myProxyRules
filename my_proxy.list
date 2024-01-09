@@ -17,6 +17,7 @@ DOMAIN-SUFFIX,tv.apple.com
 # exe
 PROCESS-NAME,Apple TV
 PROCESS-NAME,AMPLibraryAgent
+PROCESS-NAME,Arc
 
 # New Bing
 DOMAIN-SUFFIX,bing.com
