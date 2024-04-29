@@ -8,5 +8,4 @@ DOMAIN-SUFFIX,adobe.com
 DOMAIN-SUFFIX,adobe.io
 DOMAIN-KEYWORD,adobe
 
-DOMAIN-KEYWORD,adobe
 GEOIP,adobe-activation,no-resolve
