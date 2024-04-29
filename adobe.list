@@ -9,8 +9,4 @@ DOMAIN-SUFFIX,adobe.io
 DOMAIN-KEYWORD,adobe
 
 DOMAIN-KEYWORD,adobe
-GEOIP,adobe-activation
-GEOIP,adobe-activation
-
-PROCESS-NAME,Photoshop.exe
-PROCESS-NAME,Illustrator.exe
+GEOIP,adobe-activation,no-resolve
