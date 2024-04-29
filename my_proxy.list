@@ -57,5 +57,5 @@ DOMAIN-SUFFIX,discordapp.com
 DOMAIN-SUFFIX,discordapp.net
 
 
-IP-CIDR,13.115.42.98/24
-IP-CIDR,149.154.167.91/24
+IP-CIDR,13.115.42.98/24,no-resolve
+IP-CIDR,149.154.167.91/24,no-resolve
