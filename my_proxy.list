@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,tv.apple.com
 DOMAIN-SUFFIX,1point3acres.com
 DOMAIN-SUFFIX,suno.ai
 DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,arc.net
 
 # exe
 PROCESS-NAME,Apple TV
