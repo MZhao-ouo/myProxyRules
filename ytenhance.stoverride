@@ -28,7 +28,7 @@ http:
       require-body: true
       binary-mode: true
       argument:
-        captionLang: "off"
+        captionLang: off
 
 script-providers:
   "YouTube请求_10":
