@@ -1,38 +1,41 @@
-name: "YouTube去广告"
-desc: "Stash复写制作 BY @Akimio521"
-icon: "https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/ICON/AppStore/YouTube.png"
-#移除YouTube视频、瀑布流、搜索和Shorts中的广告，移除底部的上传按钮，增加画中画及解锁更多的字幕地区功能。移除YouTube Music底部的上传、选段和升级按钮，支持二者的后台播放。此插件不能与其他具有YouTube广告过滤能力的插件一起使用，并且需要禁用UDP协议的443端口。此插件仅建议iOS 15以上设备使用，支持Premium订阅用户使用，不支持tvOS设备。
-
+#!name = YouTube去广告
+#!desc =支持pip，后台播放
+#!author = Maasea 
+#!homepage=https://whatshub.top
+#!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
+name: YouTubequguanggao
+desc: 支持pip，后台播放
 http:
-
   mitm:
+    - "-redirector*.googlevideo.com"
     - "*.googlevideo.com"
+    - "www.youtube.com"
+    - "s.youtube.com"
     - "youtubei.googleapis.com"
-
-  url-rewrite:
-# 使用reject-200方法以减少开销
-    - >-
-      ^https?:\/\/[\w-]+\.googlevideo\.com\/initplayback.+&oad - reject-200
-
   script:
-# YouTube去广告
-    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)
-      name: "YouTube请求_10"
-      type: request
-      require-body: true
-      binary-mode: true
-
-    - match: ^https:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)
-      name: "YouTube响应_11"
+    - match: ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch)
+      name: YouTubequguanggao1
       type: response
       require-body: true
       binary-mode: true
+      timeout: 10
       argument: '{"captionLang":"off"}'
-
+    - match: ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence|get_watch)
+      name: YouTubequguanggao2
+      type: request
+      require-body: true
+      binary-mode: true
+      timeout: 10
+  rewrite:
+    - (^https?:\/\/[\w-]+\.googlevideo\.com\/(?!dclk_video_ads).+?)&ctier=L(&.+?),ctier,(.+) $1$2$3 302
+    - ^https?:\/\/[\w-]+\.googlevideo\.com\/(?!(dclk_video_ads|videoplayback\?)).+&oad - reject-200
+    - ^https?:\/\/(www|s)\.youtube\.com\/api\/stats\/ads - reject-200
+    - ^https?:\/\/(www|s)\.youtube\.com\/(pagead|ptracking) - reject-200
+    - ^https?:\/\/s\.youtube\.com\/api\/stats\/qoe\?adcontext - reject-200
 script-providers:
-  "YouTube请求_10":
-    url: https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/YouTube/YouTube_remove_ads_request.js
+  YouTubequguanggao1:
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.response.preview.js
     interval: 86400
-  "YouTube响应_11":
-    url: https://cdn.jsdelivr.net/gh/Akimio521/BetterRuler@main/Script/YouTube/YouTube_remove_ads_response.js
+  YouTubequguanggao2:
+    url: https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.request.preview.js
     interval: 86400
