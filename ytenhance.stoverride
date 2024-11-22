@@ -1,10 +1,8 @@
-#!name = YouTube去广告
-#!desc =支持pip，后台播放，去除字幕
 #!author = Maasea 
 #!homepage=https://whatshub.top
-#!icon = https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 name: my_YT_enhanced
-desc: 支持pip，后台播放
+desc: 支持pip，后台播放，去除字幕
+icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png
 http:
   mitm:
     - "-redirector*.googlevideo.com"
